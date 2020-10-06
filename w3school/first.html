@@ -1,18 +1,119 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <script type="text/javascript" src="http://livejs.com/live.js"></script>
-        <meta charset="UTF-8">
-        <title>HTML opettelua</title>
-    </head>
+<html lang="fi">
+<head>  
+    <meta charset="UTF-8">
+    <title>HTML opettelua</title>
 
 
+
+<!-- Styling of the page -->
+<style>
+
+body {
+    background-color:gainsboro;
+    font-size: 130%;
+
+}
+
+
+h1 {
+    color:whitesmoke; 
+    background-color:green; 
+    font-size: 3em;
+    border-bottom: 15px solid tan;
+    margin: 100px;
+    text-align: center;
+    font-family:'calibri';
+}
+
+h2 {
+    font-family: 'calibri';
+}
+
+blockquote {
+    background-color:rgba(7, 145, 13, 0.2);
+}
+
+
+
+
+
+</style>
+<!-- END Style -->
+
+</head>
+
+
+<!-- Start BODY of HTML -->
 <body>
 
-<h1>Tästä aloitetaan</h1>
-<p>Ensimmäinen kappale.</p>
-<br>
-<p>Toinen kappale.</p>
+<h1>Otsikko 1, koko: 3em</h1>
+
+
+
+<hr>
+<h2>Nocturne</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet nisi non arcu ullamcorper tristique. Vestibulum vitae efficitur ligula. Nunc elit velit, fringilla ut libero ac, blandit malesuada quam. Quisque tristique auctor nisl, vel gravida lacus. Vivamus nisl turpis, porttitor nec arcu non, dictum lobortis urna. Curabitur molestie ornare velit in facilisis. Suspendisse finibus dolor facilisis diam lobortis, vel gravida mauris pretium. Donec placerat enim et mauris finibus, id egestas est imperdiet. Aliquam sed scelerisque orci. Donec leo arcu, ultricies sit amet scelerisque et, consequat in metus. Mauris ultrices lacinia imperdiet. Duis convallis ipsum at faucibus porttitor. Praesent quis nisi lectus. Integer mollis semper varius. </p>
+<h2>Otsikko 2</h2>
+<h3>Otsikko 3</h3>
+
+<a href="http://iltasanomat.fi" title="Iltapaskan sivulle tästä" target="_blank">Linkki Ilta-Sanomien sivuille</a>
+
+<hr>
+
+<p>
+    Heikki:
+    <img 
+     src="book.jpg" 
+     alt="Heikin kuva" 
+     title='Tässä on "heikki" ' 
+     width="209 " 
+     height="269"
+    >
+
+</p>
+
+<hr>
+
+<pre>
+    Tekstiä  missä ei
+        ignorata
+
+
+väliejä    eli  white spaceja
+
+   hups!!  piti olla yhtään eiku
+                yhteen. toi äsköne.
+</pre>
+
+<hr>
+
+<p>
+Muistihallinta on suunniteltu RAII (engl. Resource acquisition is initialization) konseptille, 
+joka soveltuu mm. poikkeuksien kanssa käyttöön.
+<blockquote cite="https://www.stroustrup.com/bs_faq2.html#finally">
+    Because C++ supports an alternative that is almost always better: 
+    The "resource acquisition is initialization" technique <em>(TC++PL3 section 14.4)</em>. 
+    The basic idea is to represent a resource by a local object, so that 
+    the local object's destructor will release the resource. That way, 
+    the programmer cannot forget to release the resource.
+</blockquote>
+C++:n kielioppi on samantapaista kuin C:n ja Javan. 
+Lauseet päättyvät puolipisteeseen ;, 
+eikä välilyöntejä tai muuta tyhjää 
+tilaa oteta huomioon. Lohkot ympäröidään 
+aaltosulkeilla <i>{ }</i>, kommentit aloitetaan 
+/* -merkinnällä ja päätetään */ -merkinnällä. 
+Yhden rivin kommentti merkitään kahdella vinoviivalla //. 
+Kaikki standardikirjaston luokat, funktiot ja enumeraatiot 
+ovat <i>std</i>-nimiavaruudessa. 
+</p>
+
+<p>
+    Itseasiassa <q>Erkki</q>, ei ole sama kuin Pasi. Mutta väliäkö sillä..
+</p>
+
+
 
 
 

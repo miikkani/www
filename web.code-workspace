@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "w3school"
+		},
+		{
+			"name": "www",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "w3school",
+		"files.autoSave": "afterDelay"
+	}
+}
