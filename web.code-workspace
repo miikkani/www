@@ -9,7 +9,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "w3school",
+		"liveServer.settings.multiRootWorkspaceName": "www",
 		"files.autoSave": "afterDelay"
 	}
 }
