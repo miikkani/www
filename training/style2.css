@@ -1,0 +1,25 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&display=swap');
+
+
+body {
+    background-color: rgb(97, 0, 0);
+}
+
+
+h1 {
+    padding: 1%;
+    font-family: Lobster;
+    color:rgb(187, 0, 0);
+    background-color: rgb(117, 31, 31);
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+}
+
+p {
+    color: rgb(187, 0, 0);
+    background-color: rgb(117, 31, 31);
+    font-size: x-large;
+    font-family: Patua One;
+}
