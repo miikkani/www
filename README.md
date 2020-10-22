@@ -1,2 +1,6 @@
 # www
-Learning html stuff
+Learning html stuff and general web stuff..there's so much.. stuff.
+
+# html
+# PHP
+# JS
